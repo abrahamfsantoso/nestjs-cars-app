@@ -21,11 +21,11 @@
     {
         "name": "prod",
         "type": "mysql",
-        "host": "befef892d9bd61:392a5d0b@eu-cdbr-west-01.cleardb.com",
+        "host": "eu-cdbr-west-01.cleardb.com",
         "port": 3306,
         "username": "befef892d9bd61",
         "password": "392a5d0b",
-        "database": "yourcar",
+        "database": "heroku_d5b26103157dcef",
         "entities": [
             "dist/**/entities/*{.ts,.js}"
         ],
