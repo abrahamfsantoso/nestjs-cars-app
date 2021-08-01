@@ -11,6 +11,7 @@ import { ComponentsModule } from './components/components.module';
     ConfigModule.forRoot(),
     DatabaseModule,
     GraphQLModule.forRoot({
+      introspection: true,
       playground: true,
       debug: true,
       autoSchemaFile: true,
