@@ -21,10 +21,10 @@
     {
         "name": "prod",
         "type": "mysql",
-        "host": "localhost",
+        "host": "befef892d9bd61:392a5d0b@eu-cdbr-west-01.cleardb.com",
         "port": 3306,
-        "username": "root",
-        "password": "pass123",
+        "username": "befef892d9bd61",
+        "password": "392a5d0b",
         "database": "yourcar",
         "entities": [
             "dist/**/entities/*{.ts,.js}"
